@@ -1,0 +1,65 @@
+body {
+     background-color:antiquewhite;
+     font-family: monospace;
+}
+
+
+
+.header { 
+    width: 320px;
+    height: 10px;
+    margin: 60px auto;
+}
+
+.part1 p {
+    background-color: blanchedalmond;
+    width: 320px;
+    height: 100px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+
+.messagebox {
+    width: 340px;
+    height: 180px;
+    padding: 18px;
+    margin: 20px auto;
+    
+
+}
+
+#message {
+    background-image: url(/Users/adiemm/Documents/GitHub/msg-send-test/pixel.gif);
+    background-size: cover;
+    max-width: 320px;
+    max-height: 200px;
+    padding-left: 30px;
+    border-radius: 20px;
+    color: blanchedalmond;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: blanchedalmond;
+}
+
+#send {
+    background-color: transparent;
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+.footnav {
+   /*width: 320px;*/
+   height: 20px; 
+   padding: 30px;
+   margin: 80px auto;
+   border-top: 2px solid black;
+   text-align: center;
+}
+
